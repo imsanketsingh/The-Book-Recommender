@@ -30,7 +30,7 @@ def recommend_books(book_name):
 st.set_page_config(page_title='The Book Recommender', page_icon = 'favicon.png', layout = 'wide', initial_sidebar_state = 'auto')
 
 
-st.sidebar.title('📚📚📚Bookieee')
+st.sidebar.title('📚📚📚Bookieee📚📚📚')
 
 selected_option = st.sidebar.selectbox('Select Option', ['Home', 'Find Similar Books', 'About'])
 
