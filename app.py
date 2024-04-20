@@ -30,7 +30,7 @@ def recommend_books(book_name):
 st.set_page_config(page_title='The Book Recommender', page_icon = 'favicon.png', layout = 'wide', initial_sidebar_state = 'auto')
 
 
-st.sidebar.title('Bookieee.com')
+st.sidebar.title('📚📚📚Bookieee')
 
 selected_option = st.sidebar.selectbox('Select Option', ['Home', 'Find Similar Books', 'About'])
 
@@ -102,26 +102,26 @@ elif selected_option == 'Find Similar Books':
     
 
 else:
-    st.title('About Bookieee.com')
+    st.title('About Bookieee')
 
     st.write("""
-    Welcome to Bookieee.com, your ultimate destination for discovering new books, finding similar reads, and exploring top-rated titles!
+    Welcome to Bookieee, your ultimate destination for discovering new books, finding similar reads, and exploring top-rated titles!
 
-    Bookieee.com uses advanced recommendation algorithms to suggest books similar to your favorites, helping you expand your reading list with exciting new discoveries.
+    Bookieee uses advanced recommendation algorithms to suggest books similar to your favorites, helping you expand your reading list with exciting new discoveries.
 
-    Whether you're a bookworm looking for your next literary adventure or a casual reader seeking recommendations, Bookieee.com has something for everyone.
+    Whether you're a bookworm looking for your next literary adventure or a casual reader seeking recommendations, Bookieee has something for everyone.
 
     Happy reading!
     """)
 
     st.subheader('Contact Us')
     st.write("""
-    If you have any questions, suggestions, or feedback, please feel free to reach out to us at [dummymail@bookieee.com](mailto:dummymail@bookieee.com).
+    If you have any questions, suggestions, or feedback, please feel free to reach out to us at [dummymail@bookieee.com](mailto:dummymail@dummybookieee.com).
 
     Follow us on social media:
-    - [Twitter](https://twitter.com/bookieee)
-    - [Instagram](https://www.instagram.com/bookieee)
-    - [Facebook](https://www.facebook.com/bookieee)
+    - [Twitter](https://twitter.com/dummybookieee)
+    - [Instagram](https://www.instagram.com/dummybookieee)
+    - [Facebook](https://www.facebook.com/dummybookieee)
     """)
 
     st.markdown("""
@@ -130,7 +130,7 @@ else:
 
     st.write("""
     <div style="text-align: center;">
-        © 2024 Bookieee.com. All rights reserved. <br>
+        © 2024 Bookieee. All rights reserved. <br>
         Hosted by <a href="https://www.streamlit.io/" target="_blank">Streamlit</a>
     </div>
     """,
