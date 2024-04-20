@@ -131,6 +131,7 @@ else:
     st.write("""
     <div style="text-align: center;">
         © 2024 Bookieee. All rights reserved. <br>
+        Constructed by <a href="https://www.github.com/imsanketsingh/" target="_blank"><strong>Sanket</strong></a>
         Hosted by <a href="https://www.streamlit.io/" target="_blank">Streamlit</a>
     </div>
     """,
